@@ -1,0 +1,29 @@
+.project-showcase {
+    padding: 40px;
+    background: #fdfdfd;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.doc-card {
+    border-left: 4px solid #007bff;
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.doc-card h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.doc-card ul {
+    list-style: none;
+    color: #555;
+}
+
+.doc-card li::before {
+    content: "▹";
+    color: #007bff;
+    margin-right: 10px;
+}
